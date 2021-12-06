@@ -77,7 +77,7 @@ class Class2 extends Aclass {
 }
 
 //Пример работы
-let a = new Aclass(4); // Uncaught Error: Невозможно создать экземпляр абстрактного класса!
-let b = new Class1(4); // [4, 1, 6, 8]
+let a = new Aclass(4);    // Uncaught Error: Невозможно создать экземпляр абстрактного класса!
+let b = new Class1(4);    // [4, 1, 6, 8]
 console.log(b.sort());    // [1, 24, 720, 40320]
 console.log(b)            // [1, 4, 6, 8]
